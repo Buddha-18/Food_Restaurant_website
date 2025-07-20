@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("/project4/background_img_pc.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    padding-right: 50px;
+    justify-content: space-between;
+}
+.navbar #logo{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.navbar a:hover{
+   color: orange;
+}
+.container .content{
+    height: 200px;
+    width: 500px;
+    margin-top: 100px;
+    border-left: 5px solid orange;
+    margin-left: 120px;
+}
+.contentin{
+    padding-left: 10px;
+}
+.content #healthy{
+    font-family:cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+.content p{
+    margin-top: 10px;
+    color: orange;
+    font-size: 20px;
+
+}
+button{
+    height: 40px;
+    width:100px;
+    font-size: 15px;
+    position: relative;
+    left:150px;
+    margin-top: 30px;
+    border-radius: 75px;
+}
+
+button:hover{
+    
+    background-color: orange;
+    color: white;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+#first{
+    margin-right: 20px;
+}
+.end{
+    margin-left: 155px;
+    margin-top: 150px;
+}
+.end h3{
+    color: white;
+}
+.end p{
+    color: orange;
+}
